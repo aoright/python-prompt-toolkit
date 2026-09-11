@@ -114,6 +114,7 @@ def test_swap_characters_before_cursor(_buffer):
 
 def test_accept_handler_keep_text_history():
     import asyncio
+
     from prompt_toolkit.application.current import set_app
     from prompt_toolkit.application.dummy import DummyApplication
     from prompt_toolkit.history import InMemoryHistory
